@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript">
+//recursive function
+function fact(x)
+{
+    if (x==0)
+    return 1;
+    else 
+    return x*factt(x-1);
+}
+function fact2(x)
+{
+    var f=1
+    for(i=1;i<=x;i++)
+    f=f*i;
+    return f;
+}
+document.write(fact(5));
+document.write(fact2(6));
+</script>
+</head>
+<body>
+</body>
+</html>
